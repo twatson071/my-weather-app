@@ -1,0 +1,14 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'start', '--no-cache' ]
+2 info using npm@5.6.0
+3 info using node@v9.11.2
+4 verbose run-script [ 'prestart', 'start', 'poststart' ]
+5 info lifecycle my-weather-app@0.1.0~prestart: my-weather-app@0.1.0
+6 info lifecycle my-weather-app@0.1.0~start: my-weather-app@0.1.0
+7 verbose lifecycle my-weather-app@0.1.0~start: unsafe-perm in lifecycle true
+8 verbose lifecycle my-weather-app@0.1.0~start: PATH: /usr/lib/node_modules/npm/node_modules/npm-lifecycle/node-gyp-bin:/mnt/d/my-weather-app/node_modules/.bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NGX:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/Git/cmd:/mnt/d/wamp64/bin/php/php5.6.40:/mnt/c/ProgramData/ComposerSetup/bin:/%SystemRoot%/system32:/%SystemRoot%:/%SystemRoot%/System32/Wbem:/%SYSTEMROOT%/System32/WindowsPowerShell/v1.0/:/%SYSTEMROOT%/System32/OpenSSH/:/mnt/c/Users/twats/.windows-build-tools/python27/:/mnt/c/Users/twats/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/twats/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/twats/AppData/Roaming/npm:/mnt/c/Users/twats/AppData/Local/hyper/app-3.0.2/resources/bin:/mnt/d/wamp64/bin/php/php5.6.40:/mnt/c/Users/twats/AppData/Roaming/Composer/vendor/bin:/snap/bin
+9 verbose lifecycle my-weather-app@0.1.0~start: CWD: /mnt/d/my-weather-app
+10 silly lifecycle my-weather-app@0.1.0~start: Args: [ '-c', 'react-scripts start' ]
+11 error cb() never called!
+12 error This is an error with npm itself. Please report this error at:
+13 error <https://github.com/npm/npm/issues>
