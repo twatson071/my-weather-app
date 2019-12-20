@@ -14,7 +14,7 @@ const DayCard = ({ reading }) => {
     const weekday = reading.dt * 1000;
     newDate.setTime(weekday);
     const imgURL = `owf owf-${reading.weather.id} owf-5x`
-    fetch(`https://api.unsplash.com/search/photos/?client_id=${apiConfig.unplashedkey}&per_page=500&query=${reading.weather[0].description}`)
+    fetch(`https://api.unsplash.com/search/photos/?client_id=${apiConfig.unplashedkey}&per_page=500&query='${reading.weather[0].description}'`)
     .then(res => res.json())
     .then(data => {
         const pagesTotal = data.total_pages;
