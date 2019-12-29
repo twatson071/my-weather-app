@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import apiConfig from './apiKeys'
 import {
     Card,
@@ -19,14 +19,16 @@ const DayCard = ({ reading }) => {
     .then(data => {
         const pagesTotal = data.total_pages;
         const imgUrl = data.results[Math.floor(Math.random()*data.results.length)].urls.full;
-        document.body.style.backgroundImage = `url(${imgUrl})`;
         fetch(`https://api.unsplash.com/search/photos/?client_id=${apiConfig.unplashedkey}&per_page=500&query=${reading.weather[0].description}&page=${getRandomPage(pagesTotal)}`)
         .then(res2 => res2.json())
         .then(data2 => {
         if(data2){
-        const imgUrl = data2.results[Math.floor(Math.random()*data.results.length)].urls.full;
-        document.querySelector('.App').style.backgroundImage = `url(${imgUrl})`;
-        }
+        const imgUrl2 = data2.results[Math.floor(Math.random()*data.results.length)].urls.full;
+        document.body.style.backgroundImage = `url(${imgUrl2})`;
+    }  else {
+        document.body.style.backgroundImage = `url(${imgUrl})`;
+    }
+        
     })
     });
     let getRandomPage = (pagesTotal) =>
