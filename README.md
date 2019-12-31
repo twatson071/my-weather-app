@@ -1,3 +1,3 @@
 Screenshot of this simple weather app:
 
-![Screenshot](https://imgur.com/VXdtoAW)
+![Screenshot](https://i.imgur.com/VXdtoAW.png)
