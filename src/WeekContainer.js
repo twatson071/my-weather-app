@@ -33,7 +33,6 @@ class WeekContainer extends React.Component {
       fetch(weatherURL)
       .then(res => res.json())
       .then(data => {
-        console.log(data);
         this.data = [data];
         this.setState({
           fullData: this.data

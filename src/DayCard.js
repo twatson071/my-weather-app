@@ -9,7 +9,6 @@ import {
 import moment from 'moment'
 
 const DayCard = ({ reading }) => {
-    console.log(reading);
     let newDate = new Date();
     const weekday = reading.dt * 1000;
     newDate.setTime(weekday);
